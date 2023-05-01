@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 55,
+    "name": "Neerav",
+    "phone_number": "+91 70117782004",
+    "address": "Gurgaon, Haryana-122015",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English - IN",
+    "location": {
+        "lat": -33.67891,
+        "lng": 34.45123
+    },
+    "types": [
+        "Camera",
+        "Raincoat"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sun, 30 Apr 2023 06:36:19 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "aa77b41e5c06f4ebcd483d3785b255de",
+    "scope": "APP",
+    "reference": "fa1ecb2dc27f7b10ec1f993596a3c5acfa1ecb2dc27f7b10ec1f993596a3c5ac",
+    "id": "fa1ecb2dc27f7b10ec1f993596a3c5ac"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=aa77b41e5c06f4ebcd483d3785b255de
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=aa77b41e5c06f4ebcd483d3785b255de
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 30 Apr 2023 06:36:20 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 258
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-33.67891",
+        "longitude": "34.45123"
+    },
+    "accuracy": "55",
+    "name": "Neerav",
+    "phone_number": "+91 70117782004",
+    "address": "Gurgaon, Haryana-122015",
+    "types": "Camera,Raincoat",
+    "website": "https://rahulshettyacademy.com",
+    "language": "English - IN"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "aa77b41e5c06f4ebcd483d3785b255de"
+}
+HTTP/1.1 200 OK
+Date: Sun, 30 Apr 2023 06:36:21 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
