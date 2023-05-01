@@ -10,6 +10,7 @@ And I validate response param "status" with value "OK"
 And I store value of response param "place_id" in "placeId" variable
 And I store value of response param "scope" in "scope" variable
 And I validate response param variable "scope" value with "APP"
+##Hello test branch
 
 
 Examples:
