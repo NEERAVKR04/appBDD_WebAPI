@@ -25,7 +25,7 @@ public class Base {
 		prop.load(fis);
 		
 		String env = prop.getProperty("env");
-		System.out.println(env);
+//		System.out.println(env);
 		
 		
 		

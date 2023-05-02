@@ -10,7 +10,8 @@ And I validate response param "status" with value "OK"
 And I store value of response param "place_id" in "placeId" variable
 And I store value of response param "scope" in "scope" variable
 And I validate response param variable "scope" value with "APP"
-##Hello testing
+And I set query "fetch_user_data_id_and_name"
+And I connect to db "dbURL_postgres" using db query "fetch_user_data_id_and_name" and store output in variables "id, name"
 
 
 Examples:
